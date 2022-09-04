@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: black;
+}
+.welcome-section > h1{
+     color:black;
+      font-family: "Roboto Mono", monospace;
+    text-align: center;
+}
+.section{
+    color:azure;
+    background-color: black;
+    background-size: stretch;
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+}
+#intro{
+    font-size: 55px;
+            }
+.random{
+color: black; /* Text color */
+background-color: azure; /* Remove background color */
+background-size: stretch;
+border: 6px solid black; /* Border thickness, line styland color */
+ 
+
+ 
+text-transform: uppercase; /* Make letters uppercase */
+ 
+    text-align: center;
+    
+}

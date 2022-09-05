@@ -26,7 +26,8 @@ background-color: azure; /* Remove background color */
 background-size: stretch;
 border: 6px solid black; /* Border thickness, line styland color */
  
-
+height:auto;
+width: auto;
  
 text-transform: uppercase; /* Make letters uppercase */
  

@@ -25,12 +25,19 @@ color: black; /* Text color */
 background-color: azure; /* Remove background color */
 background-size: stretch;
 border: 6px solid black; /* Border thickness, line styland color */
- 
 height:auto;
 width: auto;
- 
 text-transform: uppercase; /* Make letters uppercase */
- 
     text-align: center;
     
+}
+.block {
+  display: block;
+  width: 100%;
+  border: 6px solid black;
+  background-color: azure;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
 }

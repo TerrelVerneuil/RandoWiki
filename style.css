@@ -21,10 +21,9 @@
     font-size: 55px;
             }
 .random{
-color: black; /* Text color */
-background-color: azure; /* Remove background color */
+color: black;
+background-color: azure; 
 background-size: stretch;
-border: 6px solid black; /* Border thickness, line styland color */
 height:auto;
 width: auto;
 text-transform: uppercase; /* Make letters uppercase */

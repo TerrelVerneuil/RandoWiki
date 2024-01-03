@@ -1,22 +1,35 @@
-<html>
-    <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wiki-Rando</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="iframes.css"/>
-    </head>
-    <body>
-        <section class="header">
-        <div class="welcome-section">
-        <h1 style="color: azure">Welcome To The Wiki Randomizer</h1>
-        </div>
+</head>
+<body>
+    <header class="header">
+        <h1>Welcome To The Wiki Randomizer</h1>
+    </header>
+
+    <main>
+        <section class="section">
+            <p>Click the button below to learn something new!</p>
+            <div class="random">
+                <button id="button" class="block">Randomize!</button>
+                <iframe id="iFrame" src="https://en.wikipedia.org/wiki/Special:Random" width="80%" height="500px"></iframe>
+            </div>
         </section>
-        <div class = "section">
-        Click the button below to learn something new!   
-        </div>
-        <div class="random">
-        <form><button id="button" class="block" onClick="button()">Randomize!</button> </form>
-        <div><iframe id="iFrame" src="https://en.wikipedia.org/wiki/special:Random" width="80%" height="100%"> </iframe></div>
-        </div>
-        </body>
+    </main>
+
+    <footer>
+    </footer>
+
+    <script>
+        document.getElementById("button").addEventListener("click", function(event){
+            event.preventDefault();
+            document.getElementById("iFrame").src = "https://en.wikipedia.org/wiki/Special:Random";
+        });
+    </script>
+</body>
 </html>
-       
